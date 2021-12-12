@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
+    <link rel="stylesheet" href="../CSS/LogIn.css">
+    <script type="text/javascript" src="../Login.js"></script>
+    <link rel="shortcut icon" href="../pan.png">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Log In</title>
+</head>
+<body>
+    <div id="login">
+        <h3 class="text-center text-black pt-5">Con el sarten por el mango &#127859 </span></h3>
+        <div class="container">
+            <div id="login-row" class="row justify-content-center align-items-center">
+                <div id="login-column" class="col-md-6">
+                    <div id="login-box" class="col-md-7">
+                            <h3 class="text-center text-dark">Ingreso de empleados</h3>
+                            <div class="form-group">
+                                <label for="useremail" class="text-dark">Email corporativo:</label><br />
+                                <input type="email" name="useremail" id="useremail" class="form-control"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="text-dark">Contraseña:</label><br />
+                                <input type="password" name="password" id="password" class="form-control"/>
+                            </div>
+                            <div class="form-group text-center mb-4">
+                                <button onclick="login()" class="btn btn-secondary btn-md" > Login  </button>                                
+                            </div>
+                            <div class="form-group text-center mb-4">
+                                <label for="remember-me" class="text-dark">
+                                    <span>¿Empleado nuevo? <a href="SignUp.html" class="text-dark">Crea tu cuenta aqui</a></span>
+                                </label>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
